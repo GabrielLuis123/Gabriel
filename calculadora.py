@@ -10,6 +10,16 @@ numero02_float = 0
 numero01_float = float(numero1)
 numero02_float = float(numero2)
 
+try:
+ numero01_float = 0
+ numero02_float = 0
+ numero01_float = float(numero1)
+ numero02_float = float(numero2)
+except:
+ print("Valor não aceito")
+
+
+
 if operador == "+":
    print(f"(numero01_float) + (numero02_float) = ", numero02_float + numero01_float)
 
