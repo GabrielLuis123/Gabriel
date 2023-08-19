@@ -18,16 +18,14 @@ try:
 except:
  print("Valor não aceito")
 
-
-
 if operador == "+":
-   print(f"(numero01_float) + (numero02_float) = ", numero02_float + numero01_float)
+   print(f"(numero01_float) + (numero02_float) = ", numero01_float + numero02_float)
 
 if operador == "-":
-   print(f"(numero01_float) - (numero02_float) = ", numero02_float - numero01_float)
+   print(f"(numero01_float) - (numero02_float) = ", numero01_float - numero02_float)
 
 if operador == "/":
-   print(f"(numero01_float) / (numero02_float) = ", numero02_float / numero01_float)
+   print(f"(numero01_float) / (numero02_float) = ", numero01_float / numero02_float)
 
 if operador == "*":
-  print(f"(numero01_float) * (numero02_float) = ", numero02_float * numero01_float) 
+  print(f"(numero01_float) * (numero02_float) = ", numero01_float * numero02_float) 
