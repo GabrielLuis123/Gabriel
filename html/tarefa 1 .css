@@ -1,0 +1,20 @@
+.botao-preto {
+    background-color: black;
+    color: white; /* Define a cor do texto como branco */
+    padding: 20px; /* Define o preenchimento interno do botão */
+    border: none; /* Remove a borda */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    text-decoration: none; /* Remove a decoração de texto (sublinhado) */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar o mouse sobre o botão */
+}
+
+#imagens {
+    width: 200px;
+    height: auto;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+    padding: 50px 50px 80px 50px;
+    
+}
