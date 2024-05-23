@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .destination {
+            margin-bottom: 20px;
+        }
+        .destination img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .destination h2 {
+            color: #333;
+        }
+        .destination p {
+            color: #555;
+        }
+        h1 {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+   <h1>LUGARES QUE EU QUERO VISITAR</h1>
+   
+   
+    <div class="container">
+        <div class="destination">
+            <h2>1. Xique-Xique, Bahia</h2>
+            <img src="./fotos lugares/xiquexique.jpg" alt="Xique-Xique">
+            <p>
+                Xique-Xique, uma cidade no semiárido da Bahia, encanta com suas paisagens áridas e a riqueza cultural do sertão nordestino.</p>
+        </div>
+        <div class="destination">
+            <h2>2. Reykjavík, Islândia</h2>
+            <img src="./fotos lugares/islandia.jpg" alt="islandia">
+            <p>
+                Reykjavík, a deslumbrante capital da Islândia, combina a vibração urbana com a serenidade natural das paisagens glaciares e geotérmicas.</p>
+        </div>
+        <div class="destination">
+            <h2>3. Manoel Ribas, Paraná</h2>
+            <img src="./fotos lugares/manoelribas.jpg" alt="manoelribas">
+            <p>Manoel Ribas, no coração do Paraná, revela a essência acolhedora do interior brasileiro, com suas paisagens verdejantes e a hospitalidade calorosa de sua gente.</p>
+        </div>
+        <div class="destination">
+            <h2>4. Berna, Suiça</h2>
+            <img src="./fotos lugares/berna.jpg" alt="berna">
+            <p>Berna, a encantadora capital da Suíça, cativa com sua arquitetura medieval preservada, às margens do rio Aare, e seu charme tranquilo e pitoresco.</p>
+        </div>
+        <div class="destination">
+            <h2>5. Madrid, Espanha</h2>
+            <img src="./fotos lugares/madrid.jpg" alt="madrid">
+            <p>
+                Madrid, a vibrante capital da Espanha, mescla a rica história dos seus monumentos icônicos com a energia contagiante das suas ruas movimentadas e da sua vida noturna pulsante.</p>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('img');
+            console.log(images);
+        });
+    </script>
+</body>
+</html>
